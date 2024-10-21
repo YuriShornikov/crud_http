@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.notes-enter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.notes-enter button {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    /* border-radius: 50%; */
+}
+  
+.notes-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.note-card {
+    position: relative;
+    width: 200px;
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+/* .note-card p {
+
+} */
+
+.note-card button {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: red;
+    cursor: pointer;
+}
+
+.add {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.add input,
+.add button {
+    cursor: pointer;
+}
+
+  
